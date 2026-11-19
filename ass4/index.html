@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elixir Library</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <h1>Elixir Library</h1>
+
+    <main class="layout">
+        <section>
+            <label for="search-input">Search by name</label>
+            <input id="search-input" type="text">
+
+            <label for="difficulty-select">Difficulty</label>
+            <select id="difficulty-select">
+                <option value="">All difficulties</option>
+            </select>
+
+            <div id="elixir-list"></div>
+        </section>
+
+        <section id="elixir-details">
+            <p>Select an elixir to see its details.</p>
+        </section>
+    </main>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>

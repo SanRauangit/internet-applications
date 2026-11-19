@@ -1,0 +1,60 @@
+body{
+    margin:0;
+    padding: 20px;
+    font-family: "Times New Roman",serif;
+    font-size: 16px;
+    background-color: #ffffff;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px 15px 20px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.5);
+}
+
+h1{
+    font-size: 32px;
+    margin: 15px 0 20px;
+}
+
+#book-table{
+    width: 100%;
+    margin-top: 4px;
+    border-collapse: separate;
+    border-spacing: 2px 0;
+    table-layout: fixed;
+}
+
+#book-table th:nth-child(1),
+#book-table th:nth-child(2){
+    width:35%;
+}
+
+#book-table th{
+    padding: 4px;
+}
+
+#book-table td{
+    padding: 6px;
+}
+
+#book-table tbody tr:nth-child(odd){
+    background-color: #d3d3d3;
+}
+
+#book-table input{
+    width: 90%;
+    box-sizing: border-box;
+    font-size: 14px;
+    padding: 2px 4px;
+}
+
+#book-table input.invalid{
+    outline: 2px solid #c00;
+}
+
+button{
+    font-size: 14px;
+    cursor: pointer;
+}
