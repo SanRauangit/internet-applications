@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Kyoto, Japan",
+    "description": "Old temples, tea houses and bamboo forests.",
+    "image": "https://picsum.photos/seed/kyoto/400/300",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "name": "Lisbon, Portugal",
+    "description": "Yellow trams, hills and the best custard tarts.",
+    "image": "https://picsum.photos/seed/lisbon/400/300",
+    "rating": 4
+  },
+  {
+    "id": 3,
+    "name": "Banff, Canada",
+    "description": "Turquoise lakes surrounded by the Rocky Mountains.",
+    "image": "https://picsum.photos/seed/banff/400/300",
+    "rating": 5
+  },
+  {
+    "id": 4,
+    "name": "Reykjavik, Iceland",
+    "description": "Northern lights, hot springs and volcanic landscapes.",
+    "image": "https://picsum.photos/seed/reykjavik/400/300",
+    "rating": 3
+  },
+  {
+    "id": 5,
+    "name": "Cape Town, South Africa",
+    "description": "Table Mountain, beaches and vineyards in one city.",
+    "image": "https://picsum.photos/seed/capetown/400/300",
+    "rating": 4
+  },
+  {
+    "id": 6,
+    "name": "Santorini, Greece",
+    "description": "White houses on a cliff above the sea.",
+    "image": "https://picsum.photos/seed/santorini/400/300",
+    "rating": 2
+  }
+]
