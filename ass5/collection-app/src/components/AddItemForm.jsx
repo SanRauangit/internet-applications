@@ -20,7 +20,6 @@ function AddItemForm({ onAdd }) {
       id: Date.now(), 
       name: trimmedName,
       description: description.trim(),
-      // if no image was given, use a placeholder photo
       image: image.trim() || `https://picsum.photos/seed/${encodeURIComponent(trimmedName)}/400/300`,
       rating: rating
     });
